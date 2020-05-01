@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+body {
+  background-color: rgb(105, 105, 105);
+  font-family: "Passion One", cursive;
+
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+span.navbar-text a {
+    font-size: 150%;
+    margin-left: 15px;
+}
+
