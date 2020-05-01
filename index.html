@@ -11,20 +11,33 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
-<body>
+<body style="background-color: #FFD6AA;">
     <div class="container">
-        <h3>Tabs</h3>
+        <h2>Pre Dev Camp</h2>      
         <ul class="nav nav-tabs">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Menu 1</a></li>
-          <li><a href="#">Menu 2</a></li>
-          <li><a href="#">Menu 3</a></li>
+          <li class="active"><a data-toggle="tab" href="#Profile">Profile</a></li>
+          <li><a data-toggle="tab" href="#2">2</a></li>
+          <li><a data-toggle="tab" href="#3">3</a></li>
+          <li><a data-toggle="tab" href="#4">4</a></li>
+          <li><a data-toggle="tab" href="#5">5</a></li>
+          <li><a data-toggle="tab" href="#6">6</a></li>
         </ul>
-        <br>
-        <p><strong>Note:</strong> This example shows how to create a basic navigation tab. It is not toggleable/dynamic yet (you can't click on the links to display different content)- see the last example in the Bootstrap Tabs and Pills Tutorial to find out how this can be done.</p>
+      
+        <div class="tab-content">
+          <div id="Profile" class="tab-pane fade in active">
+              <div><img class="profile" src="./img/pic.jpg" width="300" ></div>
+              <div>dfghjkl;</div>
+            
+          </div>
+          <div id="2" class="tab-pane fade"></div>
+          <div id="3" class="tab-pane fade"></div>
+          <div id="4" class="tab-pane fade"></div>
+          <div id="5" class="tab-pane fade"></div>
+          <div id="6" class="tab-pane fade"></div>
+        </div>
     </div>
       
-    <div class="center">
+    <!-- <div class="center">
         <img class="profile" src="./img/pic.jpg" width="300" height="250">
         <br>
         <table class="describe">
@@ -41,7 +54,7 @@
                 <td>Sleep</td>
             </tr>
         </table>
-    </div>
+    </div> -->
     
 </body>
 </html>
